@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>SN</title>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-3"> <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                Les plus beaux endroits
+              </a>
+            </div>
+          </nav>
+        </div>
+        <!--C'est la navigation-->
+        <div class="col-9">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Bienvenue</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                      </li>
+                     
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Endroits
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Ile de Gorée</a></li>
+                          <li><a class="dropdown-item" href="#">Ile du Saloum</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Monument de la Renaissance</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled ">Contact</a>
+                      </li>
+                    </ul>
+                    <!-- Button trigger modal -->
+<button type="button" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-right: 20px;">
+    Se Connecter
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Connectez vous</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <!--Le corps du modal-->
+        <div class="modal-body">
+
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Nous n'allons partager votre email avec personne. Only God</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyez</button>
+          </form>
+
+
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+          <button type="button" class="btn btn-primary">Sauvegarder</button>
+        </div>
+      </div>
+    </div>
+  </div>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </div>
+    <!--Slider -->
+    <div class="row mt-3 ">
+      <div class="col " >
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner" >
+            <div class="carousel-item active">
+              <img src="./images/slide1.png" class="d-block w-100"  style="height: 80vh;" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/slide2.png" class="d-block w-100" style="height: 80vh;" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/slide3.png" class="d-block w-100" style="height: 80vh;" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/slide4.png" class="d-block w-100" style="height: 80vh;" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/slide5.png" class="d-block w-100" style="height: 80vh;" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Precedant</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Suivant</span>
+          </button>
+        </div>
+
+        <!--Fin de la colonne-->
+      </div>
+
+    </div>
+     <!--Partie Card-->
+    <div class="row text-center mt-3">
+        <div class="col ">
+          <h2>
+            <ion-icon name="heart-outline"  class="" ></ion-icon>
+          <p>Le Sénégal est magnifique</p>
+          </h2>
+        </div>
+    </div>
+    <!--CArd v2-->
+      <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/goree.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-success">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/djoudj.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-success">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/maison_esclave.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-success">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/niokolokoba.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-success">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!--Fin des Card-->
+      <div class="row mt-3">
+        <div class="col">
+
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+    <!--Fin du container fluid-->
+</div>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
